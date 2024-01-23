@@ -1,0 +1,7 @@
+Instructions:
+
+Run the Startup.cs file. This will take you to the URL 'http://localhost:5000/' and on this page you will be able to add/edit employees as well as see the database of employees.
+
+If you run the Apps.js file you will be taken to URL 'http://localhost:3000/' which will display the correct instructions and inform you to run the Startup.cs file. You will not be able to edit or add employees from here.
+
+If you wish to terminate the server run this command 'netstat -aon | findstr :5000' in a terminal and  then taskkill /F /PID 30904 if the value displayed is 30904. 
